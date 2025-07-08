@@ -1,9 +1,11 @@
-#include "compiler.hpp"
-#include "machine.hpp"
+#include "compiler.hh"
+
 #include <cstdio>
 #include <fstream>
 
-int compile(std::ifstream& file, program_t& program)
+#include "machine.hh"
+
+int compile(std::ifstream &file, program_t &program)
 {
     unsigned int pc = 0, jpc = 0;
     char word;

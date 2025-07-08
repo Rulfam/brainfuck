@@ -1,4 +1,4 @@
-#include "machine.hpp"
+#include "machine.hh"
 
 /* stack_t */
 

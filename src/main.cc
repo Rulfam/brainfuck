@@ -1,10 +1,10 @@
-#include "compiler.hpp"
-#include "machine.hpp"
-#include "runner.hpp"
+#include "compiler.hh"
+#include "machine.hh"
+#include "runner.hh"
 #include <cstdio>
 #include <fstream>
 
-int main(const int argc, const char** argv)
+int main(const int argc, const char **argv)
 {
     /* Open file */
 

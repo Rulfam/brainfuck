@@ -1,8 +1,8 @@
-#include "runner.hpp"
-#include "machine.hpp"
+#include "runner.hh"
+#include "machine.hh"
 #include <cstdio>
 
-void run(program_t& program)
+void run(program_t &program)
 {
     memory_t memory;
     unsigned int pc = 0;
